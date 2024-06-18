@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf2baaf218.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="signup">
+      <div class="signup_content">
+        <h1 class="signup_heading">サインアップ</h1>
+        <h2 class="signup_caption">に登録する</h2>
+        <div class="signup-social">
+          <div class="signup-social_item">
+            <i class="fa fa-google signup-social_icon"></i>
+            <span class="signup-social_text">Google に登録する</span>
+          </div>
+          <div class="signup-social_item">
+            <i class="fa fa-facebook signup-social_icon"></i>
+            <span class="signup-social_text">Facebook に登録する</span>
+          </div>
+        </div>
+        <form action="" class="signup-form" autocomplete="off">
+          <div class="signup-form_row">
+            <div class="signup-form_group">
+              <label for="name" class="signup-form_label">名前</label>
+              <input
+                type="text"
+                class="signup-form_input"
+                id="name"
+                placeholder="名前"
+              />
+            </div>
+            <div class="signup-form_group">
+              <label for="email" class="signup-form_label">Eメール</label>
+              <input
+                type="email"
+                class="signup-form_input"
+                id="email"
+                placeholder="Eメール"
+              />
+            </div>
+          </div>
+          <div class="signup-form_group">
+            <label for="password" class="signup-form_label">パスワード</label>
+            <input
+              type="password"
+              class="signup-form_input"
+              id="password"
+              placeholder="パスワード"
+            />
+          </div>
+          <div class="signup-form_term">
+            <input type="checkbox" name="" id="term" />
+            <label for="term">条項を読んで同意します</label>
+          </div>
+          <button class="signup-form_submit">
+            <span class="signup-form_submit_text">サインアップ</span>
+            <i class="fa fa-arrow-right"></i>
+          </button>
+          <p style="margin-bottom: 1rem">すでにアカウントをお持ちですか?</p>
+          <a href="login.html" class="signup-form_login">ログイン</a>
+        </form>
+      </div>
+      <div class="signup_img">
+        <img
+          src="https://images.unsplash.com/photo-1580713864129-e9d157c6b63d?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
